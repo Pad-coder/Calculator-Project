@@ -1,0 +1,76 @@
+button {
+    color: #090909;
+    padding: 17px;
+    font-size: 17px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    margin: 5px;
+    text-align: center;
+}
+
+button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.input {
+    border: none;
+    padding: 1rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 1rem;
+    background: #e8e8e8;
+    box-shadow: 20px 20px 60px #c5c5c5,
+        -20px -20px 60px #ffffff;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+.input:focus {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    box-shadow: inset 20px 20px 60px #c5c5c5,
+        inset -20px -20px 60px #ffffff;
+    transition: 0.3s;
+}
+
+.Display {
+    margin-bottom: 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+.buttons {
+    height: 250px;
+    width: 200px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.container {
+    height: 550px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    border: 1px rgb(3, 155, 182);
+    box-shadow: 20px 20px 60px #c5c5c5,
+        -20px -20px 60px #ffffff;
+    border-radius: 10px;
+}
+
+.heading{
+    text-align: center;
+}
